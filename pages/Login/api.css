@@ -1,0 +1,39 @@
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body{
+    font-family: sans-serif;
+    color: #FFF;
+  }
+  
+  .main{
+    height: 785px;
+    background: url(https://www.numerama.com/content/uploads/2017/05/netflix.jpeg) center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+  }
+  
+  .main-child{
+    z-index: 1;
+  }
+  
+  .main h1{
+    font-size: 64px;
+    max-width: 510px;
+    text-align: center;
+  }
+  
+  .gradient{
+    background: rgba(0, 0, 0, 0.0);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
